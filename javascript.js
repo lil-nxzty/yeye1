@@ -14,5 +14,7 @@ function funciano() {
     clearInterval(mytimmy)
 };
 function funcilero() {
+    funciano();
     vari = 0;
+    pa.innerHTML = vari;
 }
